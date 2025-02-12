@@ -11,7 +11,6 @@ export const metadata = {
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cafe%20Mode%20On-rDlshibxtREUN7EMHXKTY3Aekd7n7s.png",
     ],
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -32,6 +31,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'
