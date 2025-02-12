@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Figma Hand";
+  src: url("/FigmaHand-Regular.woff2") format("woff2");
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #cd9d66;
+}
+
+main {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.draggable {
+  cursor: pointer !important;
+  user-select: none;
+}
+
+.draggable:active {
+  cursor: move !important;
+}
+
